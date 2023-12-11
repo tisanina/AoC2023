@@ -1,4 +1,5 @@
 import due.Due;
+import nove.Nove;
 import otto.Otto;
 import quattro.Quattro;
 import sette.Sette;
@@ -14,6 +15,7 @@ public class Main {
         var quattro = new Quattro();
         var sette = new Sette();
         var otto = new Otto();
+        var nove = new Nove();
 
         System.out.println("Giorno 1!");
         uno.gioco();
@@ -32,6 +34,9 @@ public class Main {
         System.out.println("Giorno 8!");
         otto.gioco();
         otto.gioco2();
+        System.out.println("Giorno 9!");
+        nove.gioco();
+        nove.gioco2();
 
     }
 }
